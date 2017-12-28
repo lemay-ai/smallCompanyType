@@ -4,6 +4,7 @@ setup(
     name='smallCompanyType',
     version="1.0",
     packages=['smallCompanyType','smallCompanyType.models'],
+    package_data={'': ['*.h5','*.npy','companyVectors']},
     include_package_data=True,
     install_requires=["gensim>=2.3.0","Keras>=2.1.2","sklearn","numpy>==1.13.3","h5py>=2.7.1"],
 )
