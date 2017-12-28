@@ -16,3 +16,5 @@ https://medium.com/@lemaysolutions/deep-learning-magic-small-business-type-8ac48
 * cd test
 * python3 test_text.py
 * python3 test_pandas.py
+
+https://lemay.ai
