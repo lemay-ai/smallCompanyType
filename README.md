@@ -17,7 +17,7 @@ https://medium.com/@lemaysolutions/deep-learning-magic-small-business-type-8ac48
 * python3 test_text.py
 * python3 test_pandas.py
 
-https://lemay.ai
+http://lemay.ai
 
  This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
