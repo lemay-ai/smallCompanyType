@@ -166,10 +166,6 @@ class SmallCompanyType:
         return self.le.inverse_transform(np.argmax(predicted))
     
     # Predict and return a categorical label for an input company name string
-    def getCompanyType(self, name):
-        sample=self.getCompanyVector(name)
-        sampleMod = sample[np.newaxis,:]
-        predicted = (self.dnn_model.predict(sampleMod)[0])
-        text = self.le.inverse_transform(np.argmax(predicted))
-        return self.typeDict[prediction]
+    def getCompanyType(self, name):)
+        return self.typeDict[self.getCompanySubtype(self, name)]
     
