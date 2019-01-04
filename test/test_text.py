@@ -1,5 +1,9 @@
 import smallCompanyType as s
 b=s.SmallCompanyType()
-b.doit()
-print("Lemay.ai Hotel is a", b.getCompanyType("Lemay.ai Hotel"))
-print("Lemay.ai Consulting is an",b.getCompanyType("Lemay.ai Consulting"))
+
+texts=["Lemay.ai Bed and Breakfast","Farah's variety","felding and associates","Lemay.ai Consulting"]
+
+for text in texts:
+    ctype = b.getCompanyType(text)
+    csubtype = b.getCompanySubtype(text)
+    print(text,"is a",ctype,csubtype)
