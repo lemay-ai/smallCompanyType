@@ -167,5 +167,5 @@ class SmallCompanyType:
     
     # Predict and return a categorical label for an input company name string
     def getCompanyType(self, name):
-        return self.typeDict[self.getCompanySubtype(self, name)]
+        return self.typeDict[self.getCompanySubtype(name)]
     
