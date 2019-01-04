@@ -166,6 +166,6 @@ class SmallCompanyType:
         return self.le.inverse_transform(np.argmax(predicted))
     
     # Predict and return a categorical label for an input company name string
-    def getCompanyType(self, name):)
+    def getCompanyType(self, name):
         return self.typeDict[self.getCompanySubtype(self, name)]
     
