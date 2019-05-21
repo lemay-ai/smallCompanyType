@@ -7,8 +7,8 @@ b=s.SmallCompanyType()
 files = glob.glob('TargetBusinesses_*.csv')
 
 def getCategory(row):
-    row["Type"]=b.getCompanyType(b.title_except(row["name"]))
-    row["Subtype"]=b.getCompanySubtype(b.title_except(row["name"]))
+    row["Type"]=b.getCompanyType(row["name"])
+    row["Subtype"]=b.getCompanySubtype(row["name"])
     return row
 
 for file in files:
