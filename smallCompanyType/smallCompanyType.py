@@ -145,7 +145,7 @@ class SmallCompanyType:
     def __init__(self):
         models_dir = path.join(path.dirname(__file__), 'models')
         self.le = preprocessing.LabelEncoder()
-        self.le.classes_ = np.load(models_dir+'/labelEncoderClasses.npy')
+        self.le.classes_ = np.load(models_dir+'/labelEncoderClasses.npy',allow_pickle=True)
         self.embedding_model = gensim.models.Word2Vec.load(models_dir+'/companyVectors')
         self.dnn_model = load_model(models_dir+'/0_1024_companySector_model.h5')
     
