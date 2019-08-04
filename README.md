@@ -1,6 +1,10 @@
 # smallCompanyType
 
-This project converts small company names to company type. Have a look at the following medium article: 
+This project converts small company names to company type. 
+
+# A newer version of this library is found here: https://github.com/lemay-ai/smallCompanyType2.0
+
+Have a look at the following medium article: 
 
 https://medium.com/@lemaysolutions/deep-learning-magic-small-business-type-8ac484d8c3bf
 
