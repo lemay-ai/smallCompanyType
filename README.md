@@ -7,7 +7,7 @@ https://medium.com/@lemaysolutions/deep-learning-magic-small-business-type-8ac48
 
 *INSTALL INSTRUCTIONS:*
 
-* git clone https://github.com/dcshapiro/smallCompanyType.git
+* git clone https://github.com/lemay-ai/smallCompanyType.git
 * cd smallCompanyType/
 * pip3 install h5py
 * pip3 install keras --upgrade
